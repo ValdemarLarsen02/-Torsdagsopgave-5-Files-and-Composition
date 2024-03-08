@@ -19,7 +19,7 @@ public class Cafe {
     public void loadMenuData() {
         try {
            
-            File file = new File("coffes.txt");
+            File file = new File("coffes.md");
             Scanner scanner = new Scanner(file);
             
             // Læser filen fra top til bund
